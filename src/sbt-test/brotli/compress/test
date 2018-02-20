@@ -1,0 +1,17 @@
+> checkMappings
+> webStage
+
+$ exists target/web/brotliCompress/css/a.css.br
+$ exists target/web/brotliCompress/js/a.js.br
+
+$ absent target/web/brotliCompress/images/a.png.br
+$ absent target/web/brotliCompress/images/b.jgp.br
+
+$ exists target/web/stage/css/a.css
+$ exists target/web/stage/css/a.css.br
+
+$ exists target/web/stage/js/a.js
+$ exists target/web/stage/js/a.js.br
+
+$ exists target/web/stage/images/a.png
+$ exists target/web/stage/images/b.jpg
